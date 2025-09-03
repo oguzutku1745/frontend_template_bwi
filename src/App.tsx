@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import { WalletMultiButton } from "@demox-labs/aleo-wallet-adapter-reactui";
-import "@demox-labs/aleo-wallet-adapter-reactui/dist/styles.css";
-import { useWallet } from "@demox-labs/aleo-wallet-adapter-react";
+
 import { Transaction, WalletNotConnectedError } from "@demox-labs/aleo-wallet-adapter-base";
 
 function App() {
